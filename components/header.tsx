@@ -32,6 +32,16 @@ export function Header () {
           fixed top-0 bottom-0
           sm:hidden"
         >
+          <div 
+            className="h-[3rem] 
+            flex justify-end items-center 
+            pr-3"
+          >
+            <button onClick={toggleMobileMenu}>
+              <CloseIcon />
+            </button>
+          </div>
+          
           <ul className="text-[#333336] text-3xl pl-10 font-semibold
           mt-10 flex flex-col gap-8">
             {
