@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Header } from '@/components/header'
+import { Footer } from '@/components/footer'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,8 +18,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link rel="shortcut icon" href="../public/caleb-portrait.jpg" type="image/x-icon" />
       <body className={`${inter.className} bg-gray-50 text-gray-950 relative
-      `}>
+      min-h-screen`}>
         <div className='bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem]
         h-[31.25rem] w-[31-25rem] rounded-full blur-[10rem] sm:w-[68.75rem]'>
         </div>
@@ -28,6 +30,7 @@ export default function RootLayout({
         </div>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )

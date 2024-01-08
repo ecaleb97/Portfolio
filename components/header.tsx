@@ -50,7 +50,7 @@ export function Header () {
         </nav>
       </div>
       <div className="bg-white/95 fixed w-screen h-[3rem]
-      flex items-center justify-between px-3 sm:hidden">
+      flex items-center justify-between px-5 sm:hidden">
         <div className="size-9 border border-black rounded-full">
           <Image 
             src={calebImage} 
