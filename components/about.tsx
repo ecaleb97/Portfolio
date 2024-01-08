@@ -6,7 +6,7 @@ export function About () {
     flex flex-col gap-10">
       <SectionHeading>About me</SectionHeading>
       <p className="leading-7">
-        <span className="italic">When I&apos;m not coding</span>, I enjoy playing
+        <span>When I&apos;m not coding</span>, I enjoy playing
         video games, watching movies, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
