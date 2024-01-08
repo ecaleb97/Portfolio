@@ -29,7 +29,7 @@ export function Header () {
       </div>
       { isMobileMenuOpen && (
         <nav className="bg-[#fbfbfb] z-[999] size-full 
-          fixed top-[3rem] bottom-0
+          fixed top-0 bottom-0
           sm:hidden"
         >
           <ul className="text-[#333336] text-3xl pl-10 font-semibold
