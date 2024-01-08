@@ -1,5 +1,5 @@
 import Image from "next/image"
-import mainImage from "../app/favicon.ico"
+import mainImage from "../public/caleb-picture.jpg"
 import styles from "./ui/intro.module.css"
 import { Linkedin } from "./Icons/linkedin"
 import { Github } from "./Icons/github"
@@ -9,16 +9,14 @@ import { Pill } from "./pill"
 export function Intro() {
   return (
     <section id="home" className="w-full max-w-[50rem] flex flex-col
-    gap-10 my-32 sm:my-40">
-      <div>
-        <Image
-          src={mainImage}
-          alt="Caleb's profile picture"
-          width={150}
-          height={150}
-          className="rounded-full"
-        />
-      </div>
+    gap-10 my-28 sm:my-40">
+      <Image
+        src={mainImage}
+        alt="Caleb's profile picture"
+        width={250}
+        height={250}
+        className="size-[10rem] object-cover rounded-full"
+      />
       <p className="text-2xl font-medium !leading-[1.5] sm:text-4xl">
         <span className={`font-bold ${styles.animate}`}>
           Hello, I&apos;m Caleb. {' '}
