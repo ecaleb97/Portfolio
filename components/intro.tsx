@@ -1,6 +1,6 @@
 import Image from "next/image"
-import mainImage from "../favicon.ico"
-import styles from "../ui/intro.module.css"
+import mainImage from "../app/favicon.ico"
+import styles from "./ui/intro.module.css"
 import { Linkedin } from "./Icons/linkedin"
 import { Github } from "./Icons/github"
 import { Mail } from "./Icons/mail"
